@@ -1,0 +1,101 @@
+# Build directories
+build*/
+build-*/
+
+# Coverage directories and files
+coverage*/
+coverage_report*/
+coverage.xml
+LastCoverageResults.log
+*.gcda
+*.gcno
+*.gcov
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# Ninja build files
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+Testing/
+test_results/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+nul
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Documentation build
+docs/_build/
+docs/html/
+doxygen/
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# ONNX Runtime DLLs (use system installation instead, keep only .lib files)
+lib/onnxruntime/*.dll
+lib/onnxruntime/*.pdb
+
+# Ignore specific test executables but not source
+test_suite
+onnxtest
+
+logs/
+
+# Keep important configuration files
+!.clang-tidy
+!CMakeLists.txt
+!tests/CMakeLists.txt
+!scripts/CMakeLists.txt

@@ -1,0 +1,7 @@
+{
+    "model_path": "C:/Users/mharley/Downloads/phi-3-mini-cuda-fp16/phi3-mini-4k-instruct-cuda-fp16.onnx",
+    "tokenizer_path": "C:/Users/mharley/Downloads/phi-3-mini-cuda-fp16/tokenizer.json",
+    "use_cuda": true,
+    "temperature": 0.7,
+    "max_tokens": 200
+}
